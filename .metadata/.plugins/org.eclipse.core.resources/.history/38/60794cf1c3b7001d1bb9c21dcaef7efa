@@ -1,0 +1,13 @@
+
+public class controladora {
+
+	public void exibeMenu() {
+		
+		int opcoes;
+		
+		do {
+			opcoes = dados.opcoesPerguntas();
+		} while (opcoes != 3);
+	}
+	
+}

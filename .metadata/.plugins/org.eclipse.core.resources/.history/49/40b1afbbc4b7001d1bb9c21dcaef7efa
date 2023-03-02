@@ -1,0 +1,21 @@
+import vizualizacao.EntradaSaida;
+
+public class controladora {
+
+	public void exibeMenu() {
+		
+		int opcoes;
+		
+		do {
+			opcoes = dados.opcoesPerguntas();
+
+			switch(opcoes) {
+				case 0:
+					String cor = dados.solicitaCor("cor");
+					String modelo = dados.solicitaModelo("modelo");
+			}
+			
+		} while (opcoes != 3);
+	}
+	
+}
