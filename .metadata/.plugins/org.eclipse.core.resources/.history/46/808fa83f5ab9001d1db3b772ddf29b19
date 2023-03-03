@@ -30,7 +30,7 @@ public class carro {
 		return marca;
 	}
 	
-	public void setMarca(String marca) {
+	public void setMarca() {
 		
 		this.marca = marca;
 	}

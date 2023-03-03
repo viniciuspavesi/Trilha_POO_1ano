@@ -18,17 +18,14 @@ private carro carro = new carro();
 					String modelo = dados.solicitaModelo("modelo");
 					String marca = dados.solicitaMarca("marca");
 					//int ano = dados.solicitaAno("ano");
-					System.exit(0);
 				break;
 				
 				case 1:
 					JOptionPane.showMessageDialog(null, "Você está na área de vender um carro");
-					System.exit(0);
 				break;
 				
 				case 2:
 					JOptionPane.showMessageDialog(null, "Você está na área de solicitar inforções sobre um carro");
-					System.exit(0);
 				break;
 			}
 			

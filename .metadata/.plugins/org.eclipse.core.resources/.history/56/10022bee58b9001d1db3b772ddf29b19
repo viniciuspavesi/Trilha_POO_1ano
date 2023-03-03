@@ -2,9 +2,6 @@ import javax.swing.JOptionPane;
 
 public class controladora {
 
-private fabrica fabrica = new fabrica();
-private carro carro = new carro(); 
-	
 	public void exibeMenu() {
 		
 		int opcoes;
