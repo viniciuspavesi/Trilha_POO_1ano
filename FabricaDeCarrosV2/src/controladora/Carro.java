@@ -1,6 +1,6 @@
+package controladora;
 
-
-public class carro {
+public class Carro {
 
 	protected String modelo;
 	protected String cor;
@@ -36,3 +36,4 @@ public class carro {
 		this.marca = marca;
 	}
 }
+

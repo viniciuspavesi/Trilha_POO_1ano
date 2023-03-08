@@ -4,8 +4,9 @@
     <fullyQualifiedTypeName name="modelo.Divisao"/>
     <fullyQualifiedTypeName name="visualizacao.EntradaSaida"/>
     <fullyQualifiedTypeName name="controle.controladora"/>
-    <fullyQualifiedTypeName name="vizualizacao.EntradaSaida"/>
     <fullyQualifiedTypeName name="controle.Controladora"/>
     <fullyQualifiedTypeName name="modelo.Aberturas"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="vizualizacao.EntradaSaida"/>
+    <fullyQualifiedTypeName name="controladora.Controladora"/>
 </qualifiedTypeNameHistroy>

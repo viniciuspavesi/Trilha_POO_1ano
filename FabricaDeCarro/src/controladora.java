@@ -1,3 +1,4 @@
+
 import javax.swing.JOptionPane;
 
 public class controladora {
@@ -17,7 +18,6 @@ private carro carro = new carro();
 					String cor = dados.solicitaCor("cor");
 					String modelo = dados.solicitaModelo("modelo");
 					String marca = dados.solicitaMarca("marca");
-					//int ano = dados.solicitaAno("ano");
 					System.exit(0);
 				break;
 				

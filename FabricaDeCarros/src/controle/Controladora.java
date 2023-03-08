@@ -1,23 +1,42 @@
-package controle;
+import javax.swing.JOptionPane;
 
-import vizualizacao.EntradaSaida;
+public class controladora {
 
-public class Controladora {
+private fabrica fabrica = new fabrica();
+private carro carro = new carro(); 
 	
 	public void exibeMenu() {
 		
-		int opcao;
+		int opcoes;
+		
 		do {
-			opcao = EntradaSaida.solicitaOpcao();
-			
-			switch(opcao){
+			opcoes = dados.opcoesPerguntas();
+
+			switch(opcoes) {
 				case 0:
-					String cor = EntradaSaida.solicitaDescricao("cor");
-					String ano = EntradaSaida.solicitaDescricao("ano");
-					String marca = EntradaSaida.solicitaDescricao("marca");
-					String modelo = EntradaSaida.solicitaDescricao("modelo");
+					String cor = dados.solicitaCor("cor");
+					String modelo = dados.solicitaModelo("modelo");
+					String marca = dados.solicitaMarca("marca");
+					System.exit(0);
+				break;
+				
+				case 1:
+					JOptionPane.showMessageDialog(null, "Você está na área de vender um carro");
+					System.exit(0);
+				break;
+				
+				case 2:
+					JOptionPane.showMessageDialog(null, "Você está na área de solicitar inforções sobre um carro");
+					System.exit(0);
 				break;
 			}
-		}while(opcao!=1);
+			
+		} while (opcoes != 3);
+		
+		dados.exibeMsgEncerraPrograma();
+		
+		System.exit(0);
+		
 	}
+	
 }
